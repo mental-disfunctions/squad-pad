@@ -29,6 +29,10 @@
     padding: 1.5%;
 }
 
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
 .main_height {
     height: 500px;
 }
