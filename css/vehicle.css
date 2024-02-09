@@ -83,6 +83,10 @@ ol li {
     height: 50%;
 }
 
+.description h3{
+    font-size: 25px;
+}
+
 .content p {
     padding: 15px 0;
 }
