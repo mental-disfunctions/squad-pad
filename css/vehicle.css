@@ -17,6 +17,7 @@
 
 .col {
     flex-direction: column;
+    border: solid 2px #595561;
 }
 
 .align-center {
@@ -42,4 +43,10 @@
 
 .image_m1a2 {
     background-image: url(../image/m1a2.png);
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    color: #ffc857;
 }
