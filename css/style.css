@@ -52,6 +52,7 @@ header nav ul li a {
     font-size: 16px;
     display: block;
 }
+
 header nav ul li a:last-child{
     border-top: grey solid 1px;
 }
