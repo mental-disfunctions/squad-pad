@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.content-padding{
+    padding: 2%;
+}
+
 .main_height {
     height: 500px;
 }
