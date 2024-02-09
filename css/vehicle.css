@@ -8,10 +8,18 @@
     display: flex;
 }
 
-.row{
+.row {
     flex-direction: row;
 }
 
-.col{
+.col {
     flex-direction: column;
+}
+
+.main_height {
+    height: 500px;
+}
+
+.description_height {
+    height: 250px;
 }
