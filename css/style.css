@@ -180,7 +180,7 @@ body {
 }
 
 /*tablet*/
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 857px) and (max-width: 992px) {
     .col-md-1 {
         width: 8.33%;
     }
@@ -231,7 +231,7 @@ body {
 }
 
 /*mobile*/
-@media (max-width: 768px) {
+@media (max-width: 857px) {
     .col-sm-1 {
         width: 8.33%;
     }
