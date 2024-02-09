@@ -53,7 +53,7 @@ header nav ul li a {
     display: block;
 }
 
-header nav ul li a:last-child{
+header nav ul li a:last-child {
     border-top: grey solid 1px;
 }
 
