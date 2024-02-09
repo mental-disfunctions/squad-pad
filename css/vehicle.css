@@ -41,8 +41,16 @@
     height: 500px;
 }
 
-.description_height {
-    height: 250px;
+.description div{
+    padding-top: 10px;
+}
+
+.description h3 {
+    height: 20%;
+}
+
+.description ol {
+    height: 80%;
 }
 
 .image {
@@ -63,6 +71,10 @@ h3 {
     color: #ffc857;
 }
 
-h2{
+h2 {
     font-size: 40px;
+}
+
+ol li {
+    line-height: 1.35;
 }
