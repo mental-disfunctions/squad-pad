@@ -17,7 +17,6 @@
 
 .col {
     flex-direction: column;
-    border: solid 2px #595561;
 }
 
 .align-center {
@@ -41,15 +40,18 @@
     height: 500px;
 }
 
-.description div{
+.description div,
+.content {
     padding-top: 10px;
 }
 
-.description h3 {
+.description h3,
+.content h3 {
     height: 20%;
 }
 
-.description ol {
+.description ol,
+.content p {
     height: 80%;
 }
 
@@ -77,4 +79,16 @@ h2 {
 
 ol li {
     line-height: 1.35;
+}
+
+.content {
+    height: 50%;
+}
+
+.content h3 {
+    padding-bottom: 20px;
+}
+
+.content p{
+    padding: 15px 0;
 }
