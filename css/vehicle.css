@@ -19,6 +19,11 @@
     flex-direction: column;
 }
 
+.align-center {
+    justify-content: center;
+    align-items: center;
+}
+
 .main_height {
     height: 500px;
 }
@@ -28,11 +33,11 @@
 }
 
 .image {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 90%;
     background-position: center;
-    background-size: 95%;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .image_m1a2 {
