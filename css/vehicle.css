@@ -83,7 +83,7 @@ ol li {
     height: 50%;
 }
 
-.description h3{
+.description h3 {
     font-size: 25px;
 }
 
@@ -91,12 +91,12 @@ ol li {
     padding: 15px 0;
 }
 
-.border-top{
+.border-top {
     border-top-style: solid;
     border-color: #1c1c1c8e;
 }
 
-.border-1{
+.border-1 {
     border-width: 5px;
 }
 
@@ -109,8 +109,13 @@ ol li {
     .description ol {
         height: 70%;
     }
+
     .main_container {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .description h3 {
+        font-size: 35px;
     }
 }
