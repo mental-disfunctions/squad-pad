@@ -87,6 +87,8 @@ nav ul li:hover>ul {
 footer {
     width: 100%;
     background: #1C1C1C;
+    color: grey;
+    font-size: 15px;
     border-top: white solid;
 }
 
@@ -103,11 +105,6 @@ main {
     height: 742px;
     padding-top: 60px;
     color: white;
-}
-
-.footer_words {
-    color: grey;
-    font-size: 15px;
 }
 
 red {
