@@ -87,11 +87,13 @@ ol li {
     padding: 15px 0;
 }
 
-@media (max-width: 992px) {
-    .main_container {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+.border-top{
+    border-top-style: solid;
+    border-color: #1c1c1c8e;
+}
+
+.border-1{
+    border-width: 5px;
 }
 
 /*mobile*/
@@ -102,5 +104,9 @@ ol li {
 
     .description ol {
         height: 70%;
+    }
+    .main_container {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
