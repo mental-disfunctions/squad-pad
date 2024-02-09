@@ -91,8 +91,9 @@ footer {
 }
 
 main {
-    background-image: url('../image/bg2.jpg');
-    background-size: cover;
+    background: url('../image/bg2.jpg') no-repeat;
+    background-position: 50% 0%;
+    background-size: 100vw;
     height: 90vh;
     width: 100%;
 }
@@ -346,5 +347,13 @@ body {
 
     .row-padding {
         padding: 5%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    main{
+        background-size: cover;
+        background-position: center;
     }
 }
