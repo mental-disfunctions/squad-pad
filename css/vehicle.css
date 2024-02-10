@@ -1,7 +1,6 @@
 .main_container {
     padding-top: 7vh;
     width: 100%;
-    background-color: #474350;
     color: white;
 }
 
@@ -93,7 +92,7 @@ ol li {
 
 .border-top {
     border-top-style: solid;
-    border-color: #1c1c1c8e;
+    border-color: grey;
 }
 
 .border-1 {
