@@ -19,7 +19,6 @@ header {
     padding: 0 8%;
     border-bottom: white solid;
 }
-
 header .logo {
     font-size: 25px;
     font-weight: 900;
@@ -54,7 +53,9 @@ header nav ul li a {
     font-size: 16px;
     display: block;
 }
-
+header nav ul li ul li a{
+    padding: 7px;
+}
 header nav ul li:last-child ul li a:last-child {
     border-top: grey solid 1px;
 }
