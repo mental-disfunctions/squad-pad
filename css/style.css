@@ -128,7 +128,13 @@ red {
 body {
     background-color: #1C1C1C;
 }
-
+div a img{
+    width: 20vw;
+    height: 200px;
+}
+div video{
+    width: 30vw;
+}
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
@@ -283,6 +289,13 @@ body {
 
     .row-padding {
         padding: 5%;
+    }
+    div video{
+        width: 50vw;
+    }
+    div a img{
+        height: 250px;
+        width: 50vw;
     }
 }
 
