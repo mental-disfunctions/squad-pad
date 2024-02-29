@@ -53,8 +53,8 @@
 }
 
 .image {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -72,7 +72,7 @@ yellow:hover{
     background-image: url(../image/tanks/f4034.png);
 }
 .image_2a6m {
-    background-image: url(../image/tanks/2a6m.png);
+    background-image: url(../image/tanks/leopard.png);
 }
 .image_m60-t {
     background-image: url(../image/tanks/m60t.png);

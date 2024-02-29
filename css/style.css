@@ -28,13 +28,15 @@ header .logo {
 .justify-c-center{
     justify-content: center;
 }
-
+.content{
+    font-size: 1.2em;
+}
 yellow {
-    color: gold;
+    color: #FFC000;
     font-size: 25px;
 }
 
-header.logo:hover {
+header a.logo:hover {
     transform: scale(1.2);
 }
 
@@ -75,7 +77,9 @@ nav ul li ul {
     border-right: white solid;
     border-bottom: white solid;
 }
-
+nav ul li.veh ul li a:nth-child(8){
+    border-top: solid grey 1px;
+}
 nav ul li ul li {
     width: 100%;
     border: 1px solid rgva(1, 0, 0.1)
@@ -90,7 +94,9 @@ nav ul li:hover>ul {
     display: initial;
 }
 
-
+.text-center{
+    text-align: center;
+}
 footer {
     display: flex;
     align-items: center;
