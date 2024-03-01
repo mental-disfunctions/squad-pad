@@ -35,6 +35,7 @@ header .logo {
 yellow {
     color: #FFC000;
     font-size: 25px;
+    font-weight: bold;
 }
 
 header a.logo:hover {
@@ -115,7 +116,6 @@ footer div {
 }
 main {
     background: url('../image/bg2.jpg') no-repeat;
-    background-position: 50% 50%;
     background-size: cover;
     height: 90vh;
     width: 100%;
