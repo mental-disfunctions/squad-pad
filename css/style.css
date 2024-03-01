@@ -142,6 +142,9 @@ div a img{
 div video{
     width: 30vw;
 }
+nav ul li ul li{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .git-photo{
     background-image: url('../image/github-mark-white.png');
     background-size: cover;
