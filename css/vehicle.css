@@ -52,39 +52,15 @@
     height: 80%;
 }
 
-.image {
-    width: 500px;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+img{
+    max-width: 100%;
+    height: auto;
 }
 yellow:hover{
     background-color: orange;
     transition-duration: .5s;
     transition-delay: 5s;
     color: black
-}
-.image_m1a2 {
-    background-image: url(../image/tanks/m1a2.png);
-}
-.image_f4034 {
-    background-image: url(../image/tanks/f4034.png);
-}
-.image_2a6m {
-    background-image: url(../image/tanks/leopard.png);
-}
-.image_m60-t {
-    background-image: url(../image/tanks/m60t.png);
-}
-.image_t-62 {
-    background-image: url(../image/tanks/t62.png);
-}
-.image_t-72 {
-    background-image: url(../image/tanks/t72.png);
-}
-.image_ztz-99a {
-    background-image: url(../image/tanks/ztz99a.png);
 }
 hd{
     color: rgb(95, 95, 95);
