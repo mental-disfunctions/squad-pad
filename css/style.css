@@ -6,7 +6,10 @@
     --header: #1C1C1C;
 
 }
-
+*{
+    font-family: San-Francisco;
+    font-size: 16px;
+}
 header{
     height: 50px;
     width: 100%;
@@ -19,7 +22,6 @@ header{
 .logo{
     font-size: 25px;
     color: white;
-    font-family: San-Francisco;
     height: 100%;
     width: max-content;
     display: flex;
@@ -27,16 +29,45 @@ header{
     align-items: center;
     font-weight: bold;
 }
-nav{
-    display: flex;
-    gap: 30px;
-    font-size: 16px;
-    align-items: center;
-    font-family: San-Francisco;
-    font-weight: bold;
+nav ul li a {
+    padding: 15px;
     color: white;
-    cursor: pointer;
+    display: block;
+}
+nav ul li ul li a{
+    padding: 7px;
+}
+nav ul li:last-child ul li a:last-child {
+    border-top: grey solid 1px;
+}
+
+nav ul li a:hover {
+    background: black;
+    color: white;
+}
+nav ul{
+    display: flex;
+}
+nav ul li ul {
+    position: absolute;
+    width: 180px;
+    background: #1C1C1C;
+    display: none;
+    border-left: white solid;
+    border-right: white solid;
+    border-bottom: white solid;
+}
+nav ul li.veh ul li a:nth-child(8){
+    border-top: solid grey 1px;
+}
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgva(1, 0, 0.1)
+}
+nav ul li:hover ul {
+    display: initial;
 }
 body{
     background: black;
 }
+
