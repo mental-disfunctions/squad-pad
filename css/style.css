@@ -50,6 +50,7 @@ nav ul{
 }
 nav ul li ul {
     position: absolute;
+    top: 49px;
     width: 180px;
     background: #1C1C1C;
     display: none;
